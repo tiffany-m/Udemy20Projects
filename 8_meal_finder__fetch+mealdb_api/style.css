@@ -1,3 +1,18 @@
+  /* display: grid;
+  grid-template-columns: auto 100px 1fr 2fr;
+
+  
+  -  Column 1 (auto keyword): Column is fitted to the content in the column.
+  -  Column 2 (“100px”): Column is 100 pixels wide.
+  -  Column 3 (“1fr”): Column takes up one fraction unit of the remaining space.
+  -  Column 4 (“2fr”): Column takes up two fraction units of the remaining space.
+
+  grid-template-columns: repeat(4, 1fr);
+
+  -  Allows you to define a pattern repeated X times.
+
+  Defines the number of rows/columns in the grid as well as their dimension. These two properties support a list of values separated by spaces. Each value will define a new column/row by setting a dimension. A list of 4 values will result in 4 columns/rows. A single value will produce a single column/row. */
+
 * {
   box-sizing: border-box;
 }
