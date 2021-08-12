@@ -1,13 +1,16 @@
-  /* display: grid;
-  grid-template-columns: auto 100px 1fr 2fr;
-
+  /* 
+  {display: grid;
+  grid-template-columns: auto 100px 1fr 2fr;}
   
+  - fr = “fraction of available space”, distribution of fractional space occurs after all ‘length’ or content-based row and column sizes have reached their maximum.
+
   -  Column 1 (auto keyword): Column is fitted to the content in the column.
   -  Column 2 (“100px”): Column is 100 pixels wide.
   -  Column 3 (“1fr”): Column takes up one fraction unit of the remaining space.
   -  Column 4 (“2fr”): Column takes up two fraction units of the remaining space.
 
-  grid-template-columns: repeat(4, 1fr);
+  {display: grid;
+  grid-template-columns: repeat(4, 1fr);}
 
   -  Allows you to define a pattern repeated X times.
 
